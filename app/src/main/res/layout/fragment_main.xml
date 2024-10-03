@@ -79,7 +79,7 @@
                 android:fontFamily="@font/aubrey"
                 android:text="9°C"
                 android:textColor="@color/white"
-                android:textSize="80sp"
+                android:textSize="70sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tvCity" />
@@ -91,7 +91,7 @@
                 android:fontFamily="@font/aubrey"
                 android:text="Sunny"
                 android:textColor="@color/white"
-                android:textSize="20sp"
+                android:textSize="22sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tvCurrentTemp" />
@@ -103,7 +103,7 @@
                 android:fontFamily="@font/aubrey"
                 android:text="14°C/ 8°C"
                 android:textColor="@color/white"
-                android:textSize="20sp"
+                android:textSize="22sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tvCondition" />
