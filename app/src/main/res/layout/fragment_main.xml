@@ -47,7 +47,7 @@
                 android:fontFamily="@font/aubrey"
                 android:text="01/10/2024 13:30"
                 android:textColor="@color/white"
-                android:textSize="16sp"
+                android:textSize="20sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -67,7 +67,7 @@
                 android:fontFamily="@font/aubrey"
                 android:text="Yakutsk"
                 android:textColor="@color/white"
-                android:textSize="24sp"
+                android:textSize="28sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imWeather" />
@@ -79,7 +79,7 @@
                 android:fontFamily="@font/aubrey"
                 android:text="9°C"
                 android:textColor="@color/white"
-                android:textSize="70sp"
+                android:textSize="80sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tvCity" />
@@ -91,7 +91,7 @@
                 android:fontFamily="@font/aubrey"
                 android:text="Sunny"
                 android:textColor="@color/white"
-                android:textSize="16sp"
+                android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tvCurrentTemp" />
@@ -103,7 +103,7 @@
                 android:fontFamily="@font/aubrey"
                 android:text="14°C/ 8°C"
                 android:textColor="@color/white"
-                android:textSize="16sp"
+                android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tvCondition" />
@@ -149,8 +149,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView"
-        app:tabSelectedTextColor="@color/gray"
-        app:tabTextColor="@color/white">
+        app:tabSelectedTextColor="@color/white"
+        app:tabTextColor="@color/gray">
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
